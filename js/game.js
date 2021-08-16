@@ -146,18 +146,18 @@ class Game{
 
     
                 showRank() {
-                    alert("Awesome !! You finished the game! You rank is :" +player.rank)
+                    alert("Awesome !! You finished the game! You rank is :" +player.rank);
                   }
 
                   gameOver() {
-                    textSize(40)
-                    fill("white")
-                    text("GAME OVER",displayWidth/2-400,displayHeight/2-200)
+                    textSize(40);
+                    fill("white");
+                    text("GAME OVER",displayWidth/2,displayHeight/2);
                     }
     
     end(){
        console.log("Game Ended");
-       console.log(player.rank)
+       console.log(player.rank);
        this.gameOver();
     }
 
